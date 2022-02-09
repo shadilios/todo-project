@@ -5,18 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-do app home</title>
+  <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
 
-  <nav>
-    <li>
-      <a href="index.html">Home</a>
-    </li>
+<header>
 
-    <li>
-      <a href="about.html">About</a>
-    </li>
-  </nav>
+  <img class="logo" src="img/logo.png" alt="">
+
+  <nav>
+    
+    <a href="index.html">Home</a>
+  
+    <a href="about.html">About</a>
+  
+</nav>
+
+
+</header>
+  
 
   <h1>Welcome to Homepage</h1>
 
@@ -24,32 +31,47 @@
 
   <h3>Tasks table</h3>
 
-  <table style="border: solid 4px black;">
+
+
+  <div class="table">
+  <table>
     <tr>
-      <th style="border: solid 1px grey;">
+      <th>
         Task
       </th>
-      <th style="border: solid 1px grey;">
+      <th>
         Status
       </th>
     </tr>
     <tr>
       <td>Task 1</td>
-      <td>empty</td>
+      <td id="1">empty</td>
     </tr>
     <tr>
       <td>Task 2</td>
-      <td>empty</td>
+      <td id="2">empty</td>
     </tr>
     <tr>
       <td>Task 3</td>
-      <td>empty</td>
+      <td id="3">empty</td>
     </tr>
   </table>
-
+  </div>
   <hr>
 
-  <footer> Copyright © 2022     email@somemail.com   +962 777 102030</footer>
+
+  
+
+
+  <footer>
+    <ul>
+
+      <li>Copyright © 2022</li>
+      <li>email@somemail.com</li>
+      <li>+962 777 102030</li>
+    </ul>
+  
+  </footer>
 
 </body>
 </html>
