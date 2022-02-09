@@ -1,67 +1,95 @@
-.logo {
-width: 60px;
+.logo{
+  position: absolute;
+  top: 25px;
+  width: 50px;
 }
 
-body{
-  background-color: grey;
+nav{
+  margin-left: 60%;
+  padding: 20px;
+}
+
+nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li{
+  width: 25%;
+  display: inline-block;
+  font-size: 40px;
+}
+
+nav li a{
+  text-decoration: none;
 }
 
 h1, h3{
   text-align: center;
-}
-
-
-nav{
-  float: right;
-  padding: 10px;
-  padding-right: 25px;
-  margin: 0px;
-}
-
-nav a{
-
-  font-size: 40px;
-  margin: 20px;
-}
-
-div{
-  margin: 0 43%;
-}
-
-table{
-  border: solid 2px black;
-  
-}
-
-table th, td{
-  text-align: center;
-  font-size: 40px;
-  border: solid 1px black;
-  padding: 1px 10px;
-}
-
-
-
-
-
-footer ul li{
-  display: inline;
-  padding: 0 10%;
-  justify-content: space-between;
+  background-color: rebeccapurple;
 }
 
 .about-img{
-  display: inline-block;
+  display: block;
 }
 
 .about-img img{
-  justify-content: flex-start;
+  margin-left: 25%;
+  position: relative;
+  justify-content: center;
+}
+
+p{
+  padding: 0 50px;
+}
+
+table, th, tr, td{
+  text-align: center;
+  font-size: 40px;
+  border: solid 1px black;
+}
+
+th, tr, td{
+  padding: 10px 30px;
+}
+
+table{
+  position: relative;
+  margin-left: 40%;
+}
+
+form{
+  position: relative;
+  margin-left: 40%;
 }
 
 #button{
-  padding: 5px 25px ;
-  font-size: 30px;
-  border-radius: 20px;
-  background-color: brown;
-  color: blue;
+  border-radius: 5px;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 80px;
+  padding: 5px 25px;
+}
+
+footer{
+  background-color: blueviolet;
+  position: relative;
+  padding: 0 0 200px 200px;
+}
+
+footer li{
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  padding-right: 100px;
+}
+
+.true{
+  background-color: green;
+}
+
+.false{
+  background-color: red;
 }
